@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(257, 40%, 49%);
+    background-image: url(/week6/image/bg-desktop.svg);
+    background-size: cover;
+    background-position: right;
+}
+
+.container{
+    max-width: 80rem;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3rem;
+}
+.wrapper{
+    display: flex;
+    /* align-items: center; */
+    gap: 3rem;
+}
+
+.header img{
+    width: 10rem;
+    margin-bottom: 3rem;
+}
+
+.header-text h1,p{
+    color: white;
+    margin-bottom: 3rem;
+    line-height: 1.5;
+    margin-top: 3rem;
+}
+.header-text h1{
+    font-family: 'Big Shoulders Display', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+.header-text p{
+    font-family: 'Big Shoulders Display', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-size: 11px;
+/* color: whitesmoke;
+margin-top: 3rem;
+margin-bottom: 2rem; */
+}
+
+.header-text a{
+    text-decoration: none;
+    background-color: white;
+    padding: 0.7rem 3rem;
+    border-radius: 1.5rem;
+}
+
+
+@media screen and (max-width: 375px){
+    .content{
+        display: flex;
+    grid-template-columns: 5fr;
+    /* margin: 5rem 2rem; */
+}
+.header img{
+    width: 10rem;
+    margin-bottom: 3rem;
+}
+.header-text h1,p{
+    color: white;
+    margin-bottom: 3rem;
+    line-height: 1.5;
+    margin-top: 3rem;
+}
+
+/* .sed{
+    background-color:hsl(31, 77%, 52%);
+    border-radius: 0.5rem 0.5rem 0rem 0rem;
+}
+
+
+.lux{
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0rem 0rem 0.5rem 0.5rem;
+} */
+}
+
