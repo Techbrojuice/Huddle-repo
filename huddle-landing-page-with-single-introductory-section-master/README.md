@@ -1,6 +1,7 @@
-# This is a challenge from frontend mentor challenge website called Huddle landing page with a single introductory section. This project got me working with a two column layout, was a bit challanging at first but I succeeded in creating something similar to the challange.
+# Frontend Mentor - Huddle landing page with single introductory section
 
-![image-preview](./image/READMEimg2.png)
+![Design preview for the Huddle landing page with single introductory section](./design/desktop-preview.jpg)
+
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.

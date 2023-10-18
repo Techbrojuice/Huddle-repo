@@ -6,7 +6,7 @@
 
 body{
     background-color: hsl(257, 40%, 49%);
-    background-image: url(/week6/image/bg-desktop.svg);
+    background-image: url(/image/bg-desktop.svg);
     background-size: cover;
     background-position: right;
 }
@@ -36,21 +36,21 @@ body{
 
 .header-text h1,p{
     color: white;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     line-height: 1.5;
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
 .header-text h1{
     font-family: 'Big Shoulders Display', sans-serif;
 font-family: 'Poppins', sans-serif;
+font-size: 38px;
+padding-top: 1rem;
 }
 .header-text p{
     font-family: 'Big Shoulders Display', sans-serif;
 font-family: 'Open Sans', sans-serif;
-font-size: 11px;
-/* color: whitesmoke;
-margin-top: 3rem;
-margin-bottom: 2rem; */
+font-size: 15px;
+color: whitesmoke;
 }
 
 .header-text a{
@@ -58,35 +58,84 @@ margin-bottom: 2rem; */
     background-color: white;
     padding: 0.7rem 3rem;
     border-radius: 1.5rem;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
+.foot{
+    padding: 20px;
+   font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
 
-@media screen and (max-width: 375px){
-    .content{
+    .icons{
         display: flex;
-    grid-template-columns: 5fr;
-    /* margin: 5rem 2rem; */
-}
-.header img{
-    width: 10rem;
-    margin-bottom: 3rem;
-}
-.header-text h1,p{
-    color: white;
-    margin-bottom: 3rem;
-    line-height: 1.5;
-    margin-top: 3rem;
-}
+        justify-content: flex-end;
+        gap: 10px;
+        font-size: 15px;
+        padding-top: 40px;
+        padding-left: 40px;
+        
+    }
+    .fa{
+        padding: 15px 5px;
+  font-size: 11px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 60rem;
+  border: 1.5px solid white;
+  color: white;
+    }
 
-/* .sed{
-    background-color:hsl(31, 77%, 52%);
-    border-radius: 0.5rem 0.5rem 0rem 0rem;
-}
+@media screen and (max-width: 875px){
+    body {
+        height: auto;
+        width: fit-content;
+        background-image: url(./images/bg-mobile.svg);
+        background-size: 100% 50%;
+        }
+        .container {
+            height: auto;
+            padding: 0;
+            width: 800px;
+        }
+        .wrapper{
+            flex-direction: column;
+            align-items: center;
+        }
+        .header{
+            width: 300px;
+        }
+        .header-text{
+            width: 70%;
+            text-align: center;
+            margin-top: 50px;
+        }
+        .header-text>h1{
+            font-size: 3em;
+        }
+        .header-text>p{
+            font-size: 1.45em;
+            padding-bottom: 2rem;
+        }
+        .header-text>a{
+            width: 300px;
+            padding: 1.8rem 10rem 1.8rem 10rem;
+            border-radius: 2.5rem;
+            text-size-adjust: 1rem
 
+        }
+        .content{
+            margin-top: 100px;
+        }
+        .icons{
+            justify-content: center;
+            margin: 1rem 0 0 0;
+            gap: 10px;
+        }
 
-.lux{
-    background-color: hsl(179, 100%, 13%);
-    border-radius: 0rem 0rem 0.5rem 0.5rem;
-} */
 }
 
